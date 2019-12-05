@@ -6,6 +6,8 @@
 
 > exp_2015XXXXXX(0,1,21,0.5,6)
 
+![KakaoTalk_20191205_154749328](https://user-images.githubusercontent.com/58457978/70210701-ae88c480-1776-11ea-9adf-8686818a55a2.png)
+
 → 0에서 1까지의  파형과 함수값들이 나타남
 
 <pre><code>
