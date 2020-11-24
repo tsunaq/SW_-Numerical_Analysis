@@ -10,7 +10,7 @@
 
 → 0에서 1까지의  파형과 함수값들이 나타남
 
-<pre><code>
+```matlab
 function y = exp_2016118369(min,max,data,a,deg)
 % min: 분석할 값의 최소값
 % max: 분석할 값의 최대값
@@ -34,9 +34,7 @@ y = result(deg+1,:); % 결과 벡터를 변수 y에 저장
 plot(x,y,'g:o'),grid; % 결괏값 그래프로 그리기
 
 end
-</code></pre>
-
-----------
+```
 
 ## 과제 #2) power method로 대칭 행렬의 가장 큰 eigenvalue와 가장 작은 eigenvalue를 구하고, 그에 따른 eigenvector 구하기
 
@@ -47,7 +45,7 @@ Eigen value: the 1. largest 2. smallest ? 1
 
 → 가장 큰 eigenvalue를 선택할 것인지(선택1), 가장 작은 eigenvalue를 선택할 것인지(선택2)에 따라 eigenvalue와 그에 따른 eigenvector가 나타남
 
-<pre><code>
+```matlab
 function [eig_val, eig_vec] = power_2016118369(in_A,in_es,in_maxit)
 % in_A: 입력받을 행렬
 % in_es: 입력받을 허용 오차
@@ -89,4 +87,4 @@ function [eig_val, eig_vec] = power_2016118369(in_A,in_es,in_maxit)
             eig_val = 1/eig_val;
     end
 end
-</code></pre>
+```
